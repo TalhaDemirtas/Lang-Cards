@@ -1,0 +1,33 @@
+.cards-area-container{
+    height:41rem;
+    width:25rem;
+    background-color: #F48B29;
+    margin: 0 auto 0 auto;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "top" "bottom";
+    background-image: linear-gradient(60deg,
+    #ef6024 50%,
+    #476de9 50%,
+    #476de9 60.55%,
+    #ef6024 0.55%,
+    #ef6024 100% )
+}
+
+.language-title{
+    grid-area:top;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.cards-container {
+    grid-area: bottom;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
